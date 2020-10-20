@@ -1,0 +1,26 @@
+.CommentPrompt {
+  font-family: "Noto Sans JP", sans-serif;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7%;
+  background: white;
+  border-top: 1.5px solid rgba(175, 175, 175, 0.37);
+  font-size: 1.2rem;
+
+  .prompt-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(34, 207, 230);
+    padding: 3px 10px;
+    border-radius: 12px;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}

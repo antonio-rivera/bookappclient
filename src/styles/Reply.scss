@@ -1,0 +1,49 @@
+.Reply {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding-left: 25px;
+  border-left: 2px solid rgba(175, 175, 175, 0.637);
+  margin-left: 75px;
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+    align-items: center;
+
+    .photo {
+      height: 70px;
+      width: 30px;
+      padding: 25px 45px;
+      border-radius: 50%;
+    }
+  }
+
+  .middle-column {
+    margin-left: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 60%;
+    flex-grow: 2;
+
+    .username {
+      font-weight: bold;
+    }
+  }
+
+  .right-column {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+    color: rgba(175, 175, 175, 0.863);
+  }
+}

@@ -1,0 +1,119 @@
+// .Community-Reply {
+//   $
+// }
+
+.Community-Comment {
+  flex-grow: 1;
+  min-height: 30vh;
+  width: 110vh;
+  border: 2.6px solid rgba(175, 175, 175, 0.37);
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: -6px;
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  .Comment {
+    min-height: 30vh;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-basis: 20%;
+      flex-grow: 1;
+      align-items: center;
+
+      .photo {
+        height: 70px;
+        width: 30px;
+        padding: 25px 45px;
+        border-radius: 50%;
+      }
+    }
+
+    .middle-column {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-basis: 60%;
+      flex-grow: 2;
+
+      .user-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 45%;
+
+        .username {
+          font-weight: bold;
+        }
+      }
+
+      .actions {
+        color: rgba(175, 175, 175, 0.863);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 28px;
+
+        .replies {
+          line-height: 27px;
+          margin-left: -10px;
+        }
+
+        .hearts {
+          line-height: 27px;
+          margin-left: -10px;
+        }
+      }
+    }
+
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      flex-basis: 20%;
+      flex-grow: 1;
+
+      .time-reply-container {
+        color: rgba(175, 175, 175, 0.863);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: fit-content;
+        font-size: 20px;
+
+        .arrow-right {
+          &:hover {
+            cursor: pointer;
+          }
+          margin-left: 20px;
+          font-size: 25px;
+        }
+      }
+
+      .comment-type {
+        margin-right: 30px;
+        font-size: 1.2rem;
+        background-color: rgba(175, 175, 175, 0.863);
+        color: white;
+        min-width: 70px;
+        padding: 3px 10px;
+        text-align: center;
+        border-radius: 15px;
+      }
+    }
+  }
+}

@@ -27,7 +27,7 @@ export default function Comment({
   const [render, setRender] = useState(false); //This state determines if replies should render
 
   let d = new Date(posting_time);
-  d.setHours(d.getHours() - 4);
+  // d.setHours(d.getHours() - 4);
   const relativePT = formatDistanceToNow(d); //Format date and time
 
   function dynamicStyles() {

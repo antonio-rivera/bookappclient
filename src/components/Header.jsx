@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Header.scss";
-import logo from "../assets/BookSloth Logo-02.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -12,10 +11,6 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="upper-row">
-        <div>
-          <img src={logo} alt="logo" className="logo" />
-        </div>
-
         <div className="links">
           <a href="https://www.facebook.com/booksloth">
             <FontAwesomeIcon icon={faFacebookF} className="icon" />
@@ -29,7 +24,7 @@ export default function Header() {
         </div>
       </div>
       <div className="title-container">
-        <span className="title">Community</span>
+        <span className="title">Blog</span>
       </div>
     </div>
   );

@@ -12,13 +12,13 @@ export default function Header() {
     <div className="Header">
       <div className="upper-row">
         <div className="links">
-          <a href="https://www.facebook.com/booksloth">
+          <a href="https://www.facebook.com">
             <FontAwesomeIcon icon={faFacebookF} className="icon" />
           </a>
-          <a href="https://www.instagram.com/bookslothapp/">
+          <a href="https://www.instagram.com">
             <FontAwesomeIcon icon={faInstagram} className="icon" />
           </a>
-          <a href="https://twitter.com/bookslothapp">
+          <a href="https://twitter.com">
             <FontAwesomeIcon icon={faTwitter} className="icon" />
           </a>
         </div>
